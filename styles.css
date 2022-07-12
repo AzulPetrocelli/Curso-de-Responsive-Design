@@ -149,3 +149,9 @@ main {
   line-height: 1.6rem;
   color: #757575;
 }
+
+.main-tables-container {
+  width: 24rem;
+  height: 10rem;
+  margin: 0 auto;
+}

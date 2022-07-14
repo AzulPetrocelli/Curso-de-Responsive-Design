@@ -279,3 +279,80 @@ main {
   line-height: 1.4rem;
   background-color: var(--soft-blue);
 }
+
+.main-card-container {
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  padding: 4rem 0;
+  position: relative;
+  background-color: var(--black);
+}
+
+.main-card-container .imgPotato {
+  width: 4rem;
+  height: 2.4rem;
+  position: absolute;
+  top: -1rem;
+  left: calc(50% - 2rem);
+  background-image: url('assest/icons/potato.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-card-container .card-container--tittle {
+  width: 90%;
+  min-width: 26rem;
+  max-width: 28rem;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--white);
+}
+
+.main-card-container .card-container--tittle h2 {
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 2.6rem;
+  text-align: center;
+}
+
+.main-card-container .card-container--tittle p{
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #808080;
+}
+
+.main-card-container .main-card {
+  width: 90%;
+  min-width: 29rem;
+  max-width: 34rem;
+  margin: 1.6rem auto;
+  height: auto;
+  padding: 1.8rem;
+  border-radius: 0.5rem;
+  background-color: var(--warm-black);
+}
+
+.main-card .main-card--tittle{
+  margin-top: 1.4rem;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--white);
+}
+
+.main-card .main-card--content {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}

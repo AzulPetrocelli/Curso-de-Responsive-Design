@@ -153,16 +153,16 @@ main {
 }
 
 .main-tables-container {
-  width: 24rem;
+  width: 80%;
   height: auto;
   margin: 0 auto;
 }
 
 .main-currency-table {
-  width: 70%;
+  width: 100%;
   min-width: 23rem;
   max-width: 50rem;
-  height: 36rem;
+  height: auto;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
@@ -188,7 +188,7 @@ main {
   width: 90%;
   min-width: 23rem;
   max-width: 30rem;
-  height: 25rem;
+  height: 20rem;
   margin: 0 auto;
 }
 
@@ -259,7 +259,7 @@ main {
 }
 
 .currency-table--date p {
-  margin: 1rem auto;
+  margin: 2rem auto;
   width: 17.3rem;
   padding: 0.8rem;
   border-radius: 0.5rem;
@@ -271,7 +271,7 @@ main {
 }
 
 .secondary-table--date p {
-  margin: 1rem auto;
+  margin: 2rem auto;
   width: 17.3rem;
   padding: 0.8rem;
   border-radius: 0.5rem;

@@ -381,3 +381,105 @@ main {
   padding: 6.4rem 0;
   background-color: var(--off-white);
 }
+
+.plans-container--slider {
+  width: 65%;
+  height: auto;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.plans-container--card {
+  position: relative;
+  min-width: 19rem;
+  max-width: 24rem;
+  margin: 0 0.5rem;
+  height: 25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1.5rem var(--gray);
+  background-color: var(--white);
+  text-align: center;
+}
+
+.plans-container--card .recommended {
+  position: absolute;
+  top: -1.5rem;
+  left: calc(50% - 5rem);
+  width: 10rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Inter' sans-serif;
+  line-height: 1.4rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  color: white;
+  background-color: var(--orange);
+}
+
+.card-info h3 {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: 'DM Sans';
+}
+
+.card-price-container {
+  position: relative;
+  margin: 0 auto;
+  width: 7rem;
+}
+
+.card-info .card-price {
+  padding: 0.5rem 0;
+  font-size: 5.3rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.card-info .card-price span {
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.class-description {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.4rem;
+  color: #757575;
+}
+
+.card-info button {
+  position: relative;
+  width: 15rem;
+  height: 4.8rem;
+  margin: 1rem auto 0;
+  padding-right: 3rem;
+  border-radius: 0.4rem;
+  border: solid 2px var(--orange);
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'DM Sans' , sans-serif;
+  line-height: 1.8rem;
+  background-color: var(--off-white);
+}
+
+.card-info button span {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-image: url('assest/icons/orange-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

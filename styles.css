@@ -383,7 +383,7 @@ main {
 }
 
 .plans-container--slider {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin: 5rem auto;
   display: flex;
@@ -391,6 +391,15 @@ main {
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+}
+
+.plans-container--slider::-webkit-scrollbar {
+  background-color: var(--soft-orange);
+  height: 3px;
+}
+
+.plans-container--slider::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
 }
 
 .plans-container--card {

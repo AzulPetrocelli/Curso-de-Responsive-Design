@@ -496,3 +496,25 @@ main {
   background-size: cover;
   background-position: center;
 }
+
+footer {
+  width: 100%;
+  height: 15rem ;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--orange);
+}
+
+footer section ul li{
+  list-style: none;
+  margin-bottom: 0.8rem;
+}
+
+footer section ul li a {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-family: 'DM Sans';
+  text-decoration: none;
+  color: var(--white);
+}

@@ -219,7 +219,7 @@ main {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
-  color: var(--gray);
+  color: #3d3d3d;
   background-color: var(--white);
 }
 
@@ -343,7 +343,7 @@ main {
   font-weight: 500;
   line-height: 1.8rem;
   text-align: center;
-  color: #808080;
+  color: var(--off-white);
 }
 
 .main-card-container .main-card {
@@ -355,6 +355,11 @@ main {
   padding: 1.8rem;
   border-radius: 0.5rem;
   background-color: var(--warm-black);
+}
+
+.main-card .main-card--icon img {
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .main-card .main-card--tittle{
@@ -371,7 +376,7 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #808080;
+  color: var(--off-white);
 }
 
 .bitcoin-img-container {
@@ -532,9 +537,14 @@ footer section ul li{
 }
 
 footer section ul li a {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 300;
   font-family: 'DM Sans';
   text-decoration: none;
   color: var(--white);
+}
+
+footer section img {
+  width: 9.4rem;
+  height: 8rem;
 }
